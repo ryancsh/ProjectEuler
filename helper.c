@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include <stdlib.h>
 
 int printarr(int arr[]){
   printf("[ ");
@@ -7,7 +8,7 @@ int printarr(int arr[]){
   }
   printf("]");
 }
-
+/*
 typedef struct Array{
   int *items;
   int maxSize;
@@ -57,3 +58,5 @@ void add(struct Array* pt, int value){
   pt->items[pt->currentSize] = value;
   pt->currentSize++;
 }
+
+*/

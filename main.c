@@ -6,7 +6,7 @@ int test1(){
 }
 
 int test2(){
-  if(problem2(10) == 10 && problem2(60) == 44 && problem2(1000) == 798 && problem2(10000) == 60696 && problem2(4000000) == 4613732) return 1;
+  if(problem2(10) == 10 && problem2(60) == 44 && problem2(1000) == 798 && problem2(100000) == 60696 && problem2(4000000) == 4613732) return 1;
   return 0;
 }
 
@@ -26,8 +26,6 @@ int test(){
 
 int main(){
   test();
-  printf("%d\n", problem2(10));
-  printf("%d\n", problem2(60));
-  printf("%d\n", problem2(1000));
+  printf("%d\n",test2());
   return 0;
 }
